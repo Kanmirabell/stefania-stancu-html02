@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "sass ./scss/app.scss ./css/style.css",
-    "minify": "sass ./scss/app.scss ./css/style.css --style compressed",
-    "watch": "sass --watch ./scss/app.scss:./css/style.css"
+    "minify" : "sass ./scss/app.scss ./css/style.css compressed",
+    "watch" : "sass --watch ./scss/app.scss:./css/style.css"
 
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
