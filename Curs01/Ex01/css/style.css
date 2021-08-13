@@ -34,15 +34,23 @@ body > h1 {
   display: none;
 }
 
+body > h2 {
+  color: black;
+}
+
+body > h3 {
+  color: black;
+}
+
 @media (max-width: 576px) {
   body {
     padding: 15px;
   }
 }
 
-@media (max-width: 500px) and (min-width: 1000px) {
+@media (max-width: 1000px) and (min-width: 500px) {
   body > h2 {
-    display: none;
+    display: block;
   }
 }
 
