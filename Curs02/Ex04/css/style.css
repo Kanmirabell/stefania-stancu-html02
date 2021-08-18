@@ -1,0 +1,67 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box-1 {
+  border-width: 1px;
+  width: 150px;
+  height: 150px;
+}
+
+.box-2 {
+  border-width: 2px;
+  width: 155px;
+  height: 155px;
+}
+
+.box-3 {
+  border-width: 3px;
+  width: 160px;
+  height: 160px;
+}
+
+.box-4 {
+  border-width: 4px;
+  width: 165px;
+  height: 165px;
+}
+
+.box-5 {
+  border-width: 5px;
+  width: 170px;
+  height: 170px;
+}
+
+.box-01 {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
+
+.box-02 {
+  background-color: red;
+  width: 155px;
+  height: 155px;
+}
+
+.box-03 {
+  background-color: red;
+  width: 160px;
+  height: 160px;
+}
+
+.box-04 {
+  background-color: red;
+  width: 165px;
+  height: 165px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -47,4 +47,18 @@ body {
   font-weight: bold;
   color: #fff;
 }
-/* do not touch this */
+/* do not touch this- unless you are very brave */
+
+.flex-container-01 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-06 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
