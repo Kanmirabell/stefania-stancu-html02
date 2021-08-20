@@ -1,5 +1,5 @@
 
-.squares {
+.squares  {
     width: 80%;
     border: 1px solid black;
     padding: 10px;
@@ -10,6 +10,7 @@
 }
 
 
+
 .square {
     width: 200px;
     height: 200px;
@@ -18,20 +19,61 @@
 }
 
 .square-purple {
-    @extend .square;
-
-
     background-color: purple;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
 }
 
 .square-magenta {
-    @extend .square;
-
     background-color: magenta;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
 }
 
 
 .square-peru {
-    @extend .square;
     background-color: peru;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.circles {
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: brown;
+}
+
+.circle-red {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: red;
+   border-radius: 50%;
+}
+
+.circle-green {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: green;
+   border-radius: 50%;
+}
+
+.circle-blue {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color:blue;
+   border-radius: 50%;
 }
