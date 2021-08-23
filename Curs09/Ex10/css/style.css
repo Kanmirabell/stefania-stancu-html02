@@ -37,3 +37,21 @@
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-container-01 > :nth-child(2) {
+  order: 1;
+}
+
+.flex-container-02 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-container-02 > div:nth-of-type(3) {
+  order: -1;
+}
