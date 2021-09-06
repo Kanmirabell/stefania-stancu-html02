@@ -18,3 +18,6 @@
 .afk {
   background: blue;
 }
+@import './variables';
+
+@import './../node_modules/bootstrap/scss/bootstrap';

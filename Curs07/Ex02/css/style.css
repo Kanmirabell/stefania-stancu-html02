@@ -1,0 +1,24 @@
+.hero {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: run 10s linear infinite;
+}
+
+@keyframes run {
+    0% {
+        transform: translate(0, 0);
+    }
+    33% {
+        transform: translate(0, 100vh);
+        background-color: chartreuse;
+    }
+    66%{
+        transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+background-color: lavender;
+    }
+    100%{
+        transform: translate(0,0);
+
+    }
+}
