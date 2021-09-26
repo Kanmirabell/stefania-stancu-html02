@@ -4,5 +4,10 @@
   align-items: center;
   justify-content: center;
 }
-/* can't touch this 🔨 */
+/* can't touch this 🔨>-( * o */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 150px 75px 400px 220px 20px;
+  grid-template-rows: 35px 200px 150px 65px;
+}
